@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style-login.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat:400,700|Orbitron&display=swap" rel="stylesheet">
+    <title>RulletWin-Login</title>
+</head>
+<body>
+	<script src="JS/anime.min.js"></script>
+	<div class="login-window" id="lwindow"><img src="images/login-window.png"><button class="button2" id="btn1" onclick="go()" href = "index.html">GO</button>
+	</div>
+	<script>
+    var cssSelector = anime({
+  targets: '#lwindow',
+  translateY: -500
+});
+  </script>
+  <script>
+  	function go(){
+  		window.location = "index.html"
+
+  	}
+  </script>
+  
+
+</body>
+</html>
